@@ -1,7 +1,7 @@
 ;; http://tour.golang.org/#62
 
 (ns go-tutorials-core-async.tut1
-  (:use [clojure.core.async]))
+  (require [clojure.core.async :as async :refer :all]))
 
 (go
  (dotimes [_ 5]
